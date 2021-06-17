@@ -1,9 +1,11 @@
-# UNSW-Capstone-Project
-
 # README
+Our team successfully developed a web application that aggregates articles from news APIs, and applies topic modelling to give the user a clear picture of the news landscape and trends.
 
-# COMP3900 group
-comp3900-w17a-212-monolith
+# Software Stack
+Javascript, Vue.js, Vuetify, Python, Postgresql, graphQL, node.js and docker
+
+# UNSW-Capstone-Project
+COMP3900 group: w17a-212-monolith
 
 # CREATED BY
 Lance Young
