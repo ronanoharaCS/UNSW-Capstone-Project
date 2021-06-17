@@ -1,0 +1,36 @@
+# James Tatham - z5168119 Diary for COMP3900 capstone project. 
+
+Team members: 
+- Lance 
+- Liam
+- Jono
+- Ronan
+- James 
+
+## Week 1
+- Formed a group of 4 for the project. Still looking for one team member. 
+- Discussed all available project options
+- Lance proposed a custom project idea and we are all onboard
+- Submitted a custom project request form
+
+## Week 2
+- Jono has joined our group so we now have a team of 5. 
+- We are all working on the proposal
+- Liam is working on Storyboards and User stories.
+- I helped with putting user stories into Jira and background research. 
+
+## Week 3
+- Submitted Proposal
+
+## Week 4
+- Became familiar with Docker, Vue.js and other architecture that we will be using
+
+## Week 5
+
+## Week 6
+
+## Week 7
+
+## Week 8
+
+## Week 9

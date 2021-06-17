@@ -1,0 +1,105 @@
+ERROR:root:Unable to execute query: |||
+                    query FetchArticles($fetchSize: Int = 10, $cursor: Cursor) {
+                        allArticles(filter: {
+                            textSummary: {
+                                isNull: true
+                            }
+                        }, first: $fetchSize, after: $cursor) {
+                            edges {
+                                cursor
+                                node {
+                                    id
+                                    title
+                                    publicationDate
+                                    articlecontentByContentId {
+                                        content
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ||| - Exception: Cannot connect to host localhost:5000 ssl:False [Connect call failed ('127.0.0.1', 5000)]
+ERROR:root:Unable to execute query: |||
+                    query FetchArticles($fetchSize: Int = 10, $cursor: Cursor) {
+                        allArticles(filter: {
+                            textSummary: {
+                                isNull: true
+                            }
+                        }, first: $fetchSize, after: $cursor) {
+                            edges {
+                                cursor
+                                node {
+                                    id
+                                    title
+                                    publicationDate
+                                    articlecontentByContentId {
+                                        content
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ||| - Exception: Cannot connect to host localhost:5000 ssl:False [Connect call failed ('127.0.0.1', 5000)]
+ERROR:root:Unable to execute query: |||
+                    query FetchArticles($fetchSize: Int = 10, $cursor: Cursor) {
+                        allArticles(filter: {
+                            textSummary: {
+                                isNull: true
+                            }
+                        }, first: $fetchSize, after: $cursor) {
+                            edges {
+                                cursor
+                                node {
+                                    id
+                                    title
+                                    publicationDate
+                                    articlecontentByContentId {
+                                        content
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ||| - Exception: Cannot connect to host localhost:5000 ssl:False [Connect call failed ('127.0.0.1', 5000)]
+ERROR:root:Unable to execute query: |||
+                    query FetchArticles($fetchSize: Int = 10, $cursor: Cursor) {
+                        allArticles(filter: {
+                            textSummary: {
+                                isNull: true
+                            }
+                        }, first: $fetchSize, after: $cursor) {
+                            edges {
+                                cursor
+                                node {
+                                    id
+                                    title
+                                    publicationDate
+                                    articlecontentByContentId {
+                                        content
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ||| - Exception: Cannot connect to host localhost:5000 ssl:False [Connect call failed ('127.0.0.1', 5000)]
+ERROR:root:Unable to execute query: |||
+                    query FetchArticles($fetchSize: Int = 10, $cursor: Cursor) {
+                        allArticles(filter: {
+                            textSummary: {
+                                isNull: true
+                            }
+                        }, first: $fetchSize, after: $cursor) {
+                            edges {
+                                cursor
+                                node {
+                                    id
+                                    title
+                                    publicationDate
+                                    articlecontentByContentId {
+                                        content
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ||| - Exception: Cannot connect to host localhost:5000 ssl:False [Connect call failed ('127.0.0.1', 5000)]

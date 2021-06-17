@@ -1,0 +1,30 @@
+
+query TopicsAndArticleCount($media: String = "", $limit: Int, $from: Datetime, $to: Datetime) {
+  allTopics(first:$limit) {
+    nodes {
+      id
+      name
+      topicofarticlesByTopicId(filter: { 
+  	    articleByArticleId: {
+					and: [
+            { 
+              mediaoutletByMediaOutletId:{
+                name: {
+                  includesInsensitive: $media,
+                }
+              }
+              publicationDate: {
+                greaterThanOrEqualTo: $from,
+                lessThanOrEqualTo: $to,
+                isNull: false
+              }
+            },
+            
+          ]
+        }
+      }) {
+        totalCount 
+      }
+    }
+  }
+}

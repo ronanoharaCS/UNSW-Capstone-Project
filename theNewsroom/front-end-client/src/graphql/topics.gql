@@ -1,0 +1,12 @@
+# Simple query to fetch Topics data
+# Note: There's a pagnation system built into the GraphQL API so that will probably added on this
+# though not for now
+
+query Topics {
+  allTopics {
+    nodes {
+      id
+      name
+    }
+  }
+}

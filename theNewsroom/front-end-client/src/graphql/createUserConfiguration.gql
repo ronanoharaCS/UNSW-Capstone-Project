@@ -1,0 +1,23 @@
+mutation ($configName: String!, $usrId: String!){
+  createUserconfiguration
+    (
+    input: {
+      userconfiguration:{
+        configName: $configName
+        usrId: $usrId
+      }
+    }
+    ) {
+    userconfiguration {
+      id
+      configName
+      topicconfigurationsByUsrConfigId {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query checkUser($userId: String!) {
+	allUsers (filter: {
+    id: {
+      equalTo: $userId
+    }
+  }){
+    nodes {
+      id
+    }
+  } 
+}

@@ -1,0 +1,29 @@
+# Grabs the top 5 (by default) articles from a given topic
+# TODO: currently, it just orders the articles according to their primary key value
+#       - This will need to change as we want it by a measure of prevelance
+
+query TopArticlesFromTopic($topicId: Int!, $numOfArticles: Int! = 5) {
+	topicById (id: $topicId) {
+    id
+    name
+    topicofarticlesByTopicId(orderBy: ARTICLE_BY_ARTICLE_ID__PUBLICATION_DATE_DESC, first: $numOfArticles) {
+      nodes {
+        articleByArticleId {
+          id
+        	title
+          publicationDate
+          webContentUrl
+          author
+          mediaoutletByMediaOutletId {
+
+            name
+          }
+          articlecontentByContentId {
+            id 
+            content
+          }
+        }
+      }
+    }
+  }
+}

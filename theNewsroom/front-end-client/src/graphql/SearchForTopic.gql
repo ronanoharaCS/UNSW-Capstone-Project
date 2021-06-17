@@ -1,0 +1,16 @@
+query SearchForTopic ($keyword: String) {
+  allTopics(
+    filter:{
+      name : {
+        includesInsensitive: $keyword
+      }
+    }) {
+    nodes {
+			id
+      name
+      topicofarticlesByTopicId{
+        totalCount 
+      }      
+    }
+  }
+}

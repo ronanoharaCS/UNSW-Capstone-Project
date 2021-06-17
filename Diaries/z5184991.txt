@@ -1,0 +1,111 @@
+# Questions 
+
+- What was planned for this period since the last work diary entry?
+- What was finished?
+- What were the main technical and non-technical obstacles and how they were overcome (or what was tried and did not work)
+- What was not finished, why this happened, how this aggects the overall project progress and what adjustments (if any) are needed so the success of the project is not endangered?
+- What is planned for the next period?
+
+
+
+# Week 1
+
+- Presented unique project idea to the team and as a group agreed apon an overall vision
+- As a group, we broke the project down into four iterations with increasing levels of complexity and commitment 
+	- Allows us to have a clear development path forward
+- Discussed the different software tools that could be used 
+	- Python for fetching and storing data in database
+	- Javascript application with a chosen framework to visual data
+	- Topic Modelling strategies -> simple and complex
+- Discussed the available APIs we could use to acquire data
+	- NewsAPI (500 requests a day free)
+	- Guardian API (5000 requests a day free)
+- I wrote the first draft of the project proposal for the tutor and as a group we reviewed and editted it before sending it
+
+## Objectives
+
+- Planning on individually writing user stories in Jira and reviewing them together as a group
+
+
+
+# Week 2 
+
+- As a group, we created a large suite of user stories as a first draft
+- Started the first draft of the System Requirement section for the proposal
+	- Created a diagram, fleshing out the technologies used and how they will interact with each other
+	- In addition, made some notes explaining the diagram
+- Presented the diagram to the group to flesh out the group's understanding of project scope
+- Welcomed a new member, Jono, to the team and ran him up to speed
+
+## Objectives for next week
+
+- Complete the write up of the System Requirements section (notes -> written explanation)
+- Design the Database Schema
+- Plan the dev environment out
+
+
+
+# Week 3
+
+- Completed the System Requirement section of the proposal
+	- Including an overall system diagram 
+	- Followed by a clear explanation on each of the components
+	- Made adjustments to the system architecture
+		- Specifically, the Topic Modelling Component was directly communicating with the database, though, as we're building a GraphQL API, I thought that it would be easier and more efficient to use the API instead
+	- Completed the Database Schema Relation Diagram
+		- Including an explanation
+- Created diagrams for each of the system architecture iterations
+	- Then completed a basic sprint plan for the rest of semester in relation to the planned iterations of the project
+- Finalised that we'll be using Docker Container Technology for the dev environment
+- As a group, reviewed and editted the Proposal and submitted it
+
+## Objectives for next week
+
+- Have a functioning UI and simple API for demo A
+- Prepare docker images
+
+
+# Week 4
+
+- Created docker images for docker-compose the API
+- Found tool Postgraphile that automatically generates a GraphQL API implementation based of a postgres db schema
+- Proved postgraphile is a valid tool for our requirements
+
+# Week 5
+
+- Completed the docker-compose script, allowing for other members to locally host and develop the front-end with ease
+- Implemented the postgres db schema
+- Set up the backend files for set up 
+- Added sample data to be automatically loaded on docker-compose up
+
+# Week 6 
+
+- Introduced examples of front-end calling GraphQL API
+- Got rest of team up to date on how to use GraphQL API
+- Provided front-end with useful queries for data
+- Added topic table in postgres database schema
+
+# Week 7 
+
+- Added Postgraphile plugins to expand the capabilities of the GraphQL API
+- Performed troubleshooting for the front-end for interacting with the GraphQL API
+- Determined how to implement pagination natively with the postgraphile GraphQL API
+- Refactored topic collector built by Jono to adhere to the new schema
+- Added user configuration tables in schema
+
+# Week 8
+
+- Began the implementation of text summary analysis with Giveme5W1H tool in python
+
+# Week 9
+
+- Built python packages to interact with graphQL API using python gql package
+- Troubleshooted the Giveme5W1H tool, and managed to finally make it work and perform text summary analysis
+- Built various postgres db functions to expand the functionality of the graphql api 
+
+
+# Week 10
+
+- finalised the text summary analysis tool and managed to make it grab content via pagnation and push data to the db
+- Helped create the report and review it's content
+- Added more detail description of backend services, specifically the GraphQL API

@@ -1,0 +1,12 @@
+# Grabs all the MediaOutlets data 
+# Importantly provides the means of grabbing their id value
+
+query MediaOutlets {
+  allMediaoutlets {
+    totalCount
+    nodes {
+      id
+      name
+    }
+  }
+}

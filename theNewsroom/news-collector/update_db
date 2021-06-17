@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Run this script after you have retrieved API data!
+
+# This script uses pg_dump to update thenewsroom_database file at ../postgres_db/init/03-Guardian_Data.sql
+# This file (03-Guardian_Data.sql) is loaded into thenewsroom_database when 'docker-compose up' is run.
+
+pg_dump -h 127.0.0.1 -p 5432 -U postgres --data-only --blobs --exclude-table=PublicNewsAPISources --file=../API/postgres_db/init/03-Guardian_Data.sql thenewsroom_database

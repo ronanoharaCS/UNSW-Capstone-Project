@@ -1,0 +1,20 @@
+{
+  "data": {
+    "allTopics": {
+      "nodes": [
+        {
+          "name": "Coronavirus",
+          "topicofarticlesByTopicId": {
+            "totalCount": 1
+          }
+        },
+        {
+          "name": "Crime",
+          "topicofarticlesByTopicId": {
+            "totalCount": 2
+          }
+        }
+      ]
+    }
+  }
+}

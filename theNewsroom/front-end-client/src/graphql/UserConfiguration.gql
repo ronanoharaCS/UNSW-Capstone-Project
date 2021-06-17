@@ -1,0 +1,17 @@
+# Grab configurations for a specific user configuration
+# Right now, just grabs the topics chosen
+
+query UserConfiguration($userConfigId: Int!) {
+	userconfigurationById(id: $userConfigId) {
+		configName
+    topicconfigurationsByUsrConfigId {
+      totalCount
+      nodes {
+		topicByTopicId {
+          id	
+          name
+	    }
+      }
+    }
+  }
+}

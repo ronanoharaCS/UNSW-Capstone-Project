@@ -1,0 +1,55 @@
+
+You should also include in this diary the following information (if applicable) about the project progress: 
+    -   What was planned for the period since the last work diary entry 
+    -   What was finished 
+    -   What were the main technical and non-technical obstacles and how they were overcome (or what was tried and did not work) 
+    -   What was not finished, why this happened, how this affects the overall project progress and what adjustments (if any) are needed so the success of the project is not endangered 
+    -   What is planned for the next period (e.g., next week)
+
+Week 1:
+    -   Group formed
+    -   Discussion of new project idea proposed by Lance; to collate news topics and produce an online tool for analysing and observing trends in journalism
+    -   The project would use readily available APIs and analytical software to model topics and present a visual representation of news data
+    -   Starting with the API provided from The Guardian, though we intend to expand this. 
+    -   I suggested being able to track topics over time, and comparing them with others on a visual line graph
+    -   All members contributed to the inital proposal to Ali, where we defined the project description and project objectives. 
+    -   Submission of project idea to Ali
+
+Week 2:
+    -   I created mock-up designs for the website, as well as defining additional functions and began working on user stories
+    -   As a team we collaborated on user stories and acceptance crtieria
+    -   We finalised the features we wished to include by consulting with Ali, and decided upon adding in a registered user option
+
+Week 3:
+    -   I have chosen to create the storyboards for the project, and have completed wireframe panels for each page and popup on the website.
+    -   I have created storyboard for each and every user story, showing all options and connections wit descriptions of each, as well as a universal diagram showing all links and connections between all pages and popups.
+    -   Lance has begon creating our software architecture diagram and the description of our backend
+    -   Jono is working on comparisons between our project and others that may exist
+    -   James and Ronan are working on the background of our project, as well as defining what we hpe to achieve with this product and how it differs from existing products
+
+Week 4:
+    -   This week involved mainly planning for how to approach the first progressive demo.
+    -   I have undertaken the task of building a sample front end using Vue.js and Vuetify, so that when the backend components and the sample database are ready we can visualise ti immediately. So far, I have had success in building a homepage and a navigaiton bar. Learning to work with vue alone took a lot of time, and ensuring that all the packages and components and compatible was an arduous task. 
+
+Week 5:
+    -   This week, during our second sprint, we began working on improving the front and backend. Jono and Lance worked on building our database and the graphQL API, whilst James, Ronan and I focused on  improving the front end implementation. 
+
+Week 6:
+    -   This week, I focused on ensuring that we have a state system present in the application to retain important information, such as a user's selected topics. I also tried to structure the application so that, when the back end is ready, we can simply replace hardcoded data with query functions to retrive the appropriate information. The front end now has almost all functionality complete, excluding that which is reliant on the database (eg. we have filters for searching through topics, but at the moment these filters simply store themselves in variables to be used in queries).
+
+Week 7:
+    - This week is focusing on improving the Trends page by inputting the graph. James founda plugin called ApexCharts that is perfect for our purpose, however, navigating the Apollo and GraphQ queries is tricky and this component may take some time to realise.
+
+Week 8: 
+    - Still working on the Trends graph. This, along with storing user information in the database, are the only tasks left for the front-end. Jono and Lance continue to work on our topic analysis backend.
+
+Week 9:
+    - Trends graph is complete, by using asycnhronous methods for queries and making sure to only show results when we are certain they were refetched has allowed us to create a reactive Trends graph. This was one of the mot difficult aspects of the project so far. 
+
+Week 10:
+    - Jono and Lance are nearing completion of Topic Analysis. Everything else is working. We have a working user database that will create new users, or fetch existing users, and save/update/delete configurations appropriately. The state system is now only for currently selected topics and maintaining the popup stack. The system is in an almost fully functional state. The onyl frontend function still to be completed is retreiving related topics for a given toic of selection of topics. Since we need the topic analysis to have this work, for now we simply return the most popular topics. 
+
+
+
+
+

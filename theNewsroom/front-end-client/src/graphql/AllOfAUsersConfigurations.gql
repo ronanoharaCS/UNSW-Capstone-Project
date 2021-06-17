@@ -1,0 +1,21 @@
+query AllOfAUsersConfigurations($usrId: String!) {
+	allUserconfigurations (filter: {
+    usrId: {
+      equalTo: $usrId
+    }
+  }) {
+    totalCount
+    nodes {
+      id
+      configName
+      topicconfigurationsByUsrConfigId {
+        nodes {
+            id
+            topicId
+            topicName
+          
+        }
+      }
+    }
+  }
+}

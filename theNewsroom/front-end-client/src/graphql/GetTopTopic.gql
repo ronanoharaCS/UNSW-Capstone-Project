@@ -1,0 +1,9 @@
+# Fetches the top topic 
+
+query GetTopTopic($startDate: Date!, $endDate: Date!) {
+  gettoptopic(startdate: $startDate, enddate: $endDate) {
+    id
+    topicname
+    numofarticles
+  }
+}

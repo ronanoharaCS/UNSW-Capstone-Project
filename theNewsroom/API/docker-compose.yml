@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  # this is service name
+  postgres-db:
+    container_name: postgres_database_container
+    restart: always
+    image: postgres:alpine  # lightweight version
+    env_file:
+      - ./.dev_env
+
+    ### MOUNT DB INIT FILES INTO CONTAINER
+    volumes:
+      - "./postgres_db/init:/docker-entrypoint-initdb.d"
+
+    ### NETWORKING
+    ports:
+      - "5432:5432"
+
+  # we'll be using 'postgraphile' that automatically 
+  # sets up a GraphQL API for a postgres db - nice
+  graphql-engine:
+    container_name: postgraphile_container
+    restart: always
+    build: ./graphQL_engine
+    env_file:
+      - ./.dev_env
+
+    # these are arguments that will be added onto the docker ENTRYPOINT command
+    # we can customise how we start up the postgraphile program with these - https://www.graphile.org/postgraphile/usage-cli/
+    command: ["--connection", "postgres://postgres:password@postgres-db:5432/thenewsroom_database", "--schema", "newscollectorinfo", "--append-plugins", "postgraphile-plugin-connection-filter,@graphile-contrib/pg-order-by-related"]
+    # Create this service after the postgres-db docker container is set up
+    depends_on:
+      - postgres-db
+
+    ports:
+      - "5000:5000"

@@ -1,0 +1,9 @@
+mutation ($id: Int!) {
+  deleteTopicconfigurationById(
+    input:{
+      id: $id
+    }
+  ) {
+    deletedTopicconfigurationId
+  }
+}

@@ -1,0 +1,17 @@
+mutation ($usrConfigId: Int!, $topicId: Int!, $topicName: String!) {
+  createTopicconfiguration
+    (
+    input: {
+      topicconfiguration:{
+        usrConfigId: $usrConfigId
+        topicId: $topicId
+        topicName: $topicName
+      }
+    }
+    ) {
+    topicconfiguration {
+     id
+     topicName
+    }
+  }
+}

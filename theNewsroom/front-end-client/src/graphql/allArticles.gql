@@ -1,0 +1,23 @@
+query {
+	allArticles {
+		nodes {
+      id
+      title
+      publicationDate
+      articleType
+      topicofarticlesByArticleId {
+        totalCount 
+        nodes {
+          topicByTopicId {
+            id
+            name
+          }
+        }
+      }
+      mediaoutletByMediaOutletId {
+        id
+        name
+      }    
+    }
+  }
+}

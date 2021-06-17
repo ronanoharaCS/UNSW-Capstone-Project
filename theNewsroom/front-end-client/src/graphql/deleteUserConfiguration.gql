@@ -1,0 +1,10 @@
+
+mutation ($id: Int!) {
+  deleteUserconfigurationById(
+    input:{
+      id: $id
+    }
+  ) {
+    deletedUserconfigurationId
+  }
+}

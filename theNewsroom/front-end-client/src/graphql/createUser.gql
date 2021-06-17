@@ -1,0 +1,13 @@
+mutation ($userId: String!) {
+  createUser(
+    input: {
+      user: {
+        id: $userId
+      }
+    }
+  ) {
+    user {
+      id
+    }
+  }
+}

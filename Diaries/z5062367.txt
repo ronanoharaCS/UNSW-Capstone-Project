@@ -1,0 +1,81 @@
+
+Ronan O'Hara z5062367 Diary 
+Group Members:
+- Liam, Lance, Jono, James and I
+
+
+WEEK 1
+  - We planned to...form a group
+  - What we finished included... forming a group of 4 (excluding Jono)
+  - The main obstacles we faced were...  deciding on a project. We overcame these by... going with Lance's idea for a news aggregating website with topic modelling.
+  - We didn't finish... getting permission for our project
+  - For the next period we plan to... submit a custom project description and requirements for approval
+
+WEEK 2
+  - We planned to... get started on our proposoal
+  - What we finished included... getting permission for our project idea
+  - The main obstacles we faced were...  N/A. We overcame these by... N/A
+  - We didn't finish... N/A
+  - For the next period we plan to... plan out our project and submit our proposal && set up first sprint
+
+
+WEEK 3
+  - We planned to... submit our proposal and get started on our first sprint
+  - What we finished included... proposal was submitted and we got started setting up software environment
+  - The main obstacles we faced were...  setting up the software environment such as vuetify. We overcame these by... using youtube and documentation
+  - We didn't finish... all of the sprint
+  - For the next period we plan to... complete the first sprint which gives us a very basic website with different pages, all very barebones, but the front end relies on the back end being complete.
+
+WEEK 4
+  - We planned to... complete the tasks in the first sprint ready for the demo next week
+  - What we finished included... we completed the first sprint's items to deliver a working basic website
+  - The main obstacles we faced were...  getting a handle on the vuetify framework and front end coding in general. We overcame these by... youtube, forums and documentation 
+  - We didn't finish... N/A
+  - For the next period we plan to... present the demo and get a start on sprint 2
+
+Week 5:
+  - We planned to... give our progressive demo A and organise our sprint 2
+  - What we finished included... we got both of those things done
+  - The main obstacles we faced were...  deciding which items to include in the sprint. We overcame these by... deliberating until we found a combination of tasks that was maximizing the work completed for the next demo yet achievable
+  - We didn't finish... N/A
+  - For the next period we plan to... get start on the next sprint, jono and lance on the back end, liam/james/me on the front. getting more of a handle on vuetify
+
+Week 6:
+  - We planned to... work on the appearance and functionality of the front end (with dummy values) and on the backend sort out database and graphQL API
+  - What we finished included... we got the home page, topic page and trends page working with basic functionality. On the backend we the graphQL API and SQL database sorted.
+  - The main obstacles we faced were...  getting used to docker and graphQL. We overcame these by... youtube, forums and documentation.
+  - We didn't finish... N/A
+  - For the next period we plan to... continue working on sprint 2, connecting back database to front end displays, add help button functionality to each page
+
+
+Week 7:
+  - We planned to... connect the front and back end
+  - What we finished included... worked on displaying the hard coded data for topics, on the back end successfully collect data from news APIs into database
+  - The main obstacles we faced were...  we had to learn the vuetify and graphQL APIs. We overcame these by... youtube, forum and documentation + trial and error
+  - We didn't finish... connecting the front and back end
+  - For the next period we plan to... use hard coding to get a functional website with user login ready for the demo
+
+Week 8:
+  - We planned to... use hard coding to get a functional website with user login ready for the demo, and back end collecting data
+  - What we finished included... delivering the presentation, use hard coding to get a functional website with user login ready for the demo, and back end collecting data
+  - The main obstacles we faced were... getting user login working and help buttons. We overcame these by... using auth0 and format
+  - We didn't finish... we didnt connect the front and back end
+  - For the next period we plan to... get topic analysis underway and start to display trends
+
+
+Week 9:
+  - We planned to... get topic analysis underway and start to display trends
+  - What we finished included... we got the trends displaying using hard coded data
+  - The main obstacles we faced were...  getting a graph and analysis. We overcame these by... using youtube, forums and documentation
+  - We didn't finish... getting the analysis from the backend to display in the trends page
+  - For the next period we plan to... complete the tasks of the final sprint.
+
+
+Week 10:
+  - We planned to... finish all the tasks in Jira and prepare the report. This mainly included stuff on the front end as the back end had a reasonably working model.
+  - What we finished included... We completed the jira tasks and the report by the due date
+  - We didn't finish... everything we set out to in the proposal, but that reflected use spreading ourselves too thin not realising the time required to implement certain aspects of the design. However the product still fulfills the objectives and requirements.
+
+
+
+
