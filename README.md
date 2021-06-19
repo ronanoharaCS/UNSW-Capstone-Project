@@ -17,14 +17,6 @@ James Tatham
 # Project
 The Newsroom
 
-# Sumission 
-* Note: Our project exceeded the 100MB limit for submitting by zip file. We are instead submitting by the alternative Github method. 
-* The final submission is on our branch "submission". The branch can be found at https://github.com/unsw-cse-capstone-project/capstone-project-comp3900-w17a-212-monolith/tree/submission
-* This submission branch was last updated before 11:59pm on the 16/11/2020.
-
-# If you need any help, please contact 
-James Tatham - z5168119@unsw.edu.au - 0458732989
-
 # SETUP  
 
 1. See INSTALL.md for installion instruction for the operating systems WINDOWS 10 / LINUX (UBUNTU) / MAC OSX
